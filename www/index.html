@@ -5,21 +5,44 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.2.0.css">
+        <link rel="stylesheet" type="text/css" href="css/app.css">
         <title>Wino</title>
     </head>
     <body>
         <div class="app">
-<div data-role="page">
+            <div data-role="page">
 
-    <div data-role="header">
-        <h1>My Title</h1>
-    </div><!-- /header -->
+                <div data-role="header">
+                    <h1>You're a Wino</h1>
+                </div><!-- /header -->
 
-    <div data-role="content">
-        <p>Hello world</p>
-    </div><!-- /content -->
+                <div data-role="content">
+                    <a href="#show">2009 Neil Ellis 'Elgin' Chardonnay 750ml</a>
+                </div><!-- /content -->
 
-</div><!-- /page -->
+            </div><!-- /page -->
+
+            <div data-role="page" id="show" data-add-back-btn="true">
+
+                <div data-role="header">
+                    <h1>You're a Wino</h1>
+                </div><!-- /header -->
+
+                <div data-role="content">
+                    <h1>2009 Neil Ellis 'Elgin' Chardonnay 750ml</h1>
+                    <table>
+                        <tr>
+                            <td><img src="http://img.eetoolset.com/img?set=image%5B1037%2F842230.jpg%5D%2Csize%5B600x600%5D%2Cqual%5B80%5D&call=url%5Bfile%3Astd.image%5D" class="wine" /></td>
+                            <td rowspan="2">Floral bouquet and smooth, silky finish. Hints of apricot and caramel linger in your mouth. This wine pairs well with seafood, Thai, chicken, and pork.</td>
+                        </tr>
+                        <tr>
+                            <td>$19.99</td>
+                        </tr>
+                    </tr></table>
+                </div><!-- /content -->
+
+            </div><!-- /page -->
+
         </div>
         <script type="text/javascript" src="cordova-2.3.0.js"></script>
         <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
